@@ -22,7 +22,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '@k0#p3kidu)yaaa3u1hplxz)f@^6xiy384*(+n@@s5x#1bx@m5'
+SECRET_KEY = 'your_SECRET_KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -132,11 +132,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'shaxobiddina20@gmail.com'  # this email will be used to send emails
-EMAIL_HOST_PASSWORD = '946003253sh'  # host email password required
+EMAIL_HOST_USER = 'yourname_@gmail.com'  # this email will be used to send emails
+EMAIL_HOST_PASSWORD = 'password'  # host email password required
 # now sign in with your host gmail account in your browser
 # open following link and turn it ON
 # https://myaccount.google.com/lesssecureapps
 # otherwise you will get SMTPAuthenticationError at /contactus
 # this process is required because google blocks apps authentication by default
-EMAIL_RECEIVING_USER = ['shaxobiddina20@gmail.com']  # email on which you will receive messages sent from website
+EMAIL_RECEIVING_USER = ['yourname_20@gmail.com']  # email on which you will receive messages sent from website
